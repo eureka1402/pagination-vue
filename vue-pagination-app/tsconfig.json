@@ -7,6 +7,7 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
@@ -29,11 +30,12 @@
   },
   "include": [
     "src/**/*.ts",
+    "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/styledComponents.ts"  ],
   "exclude": [
     "node_modules"
   ]
